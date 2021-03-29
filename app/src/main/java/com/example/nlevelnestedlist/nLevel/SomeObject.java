@@ -1,8 +1,6 @@
 package com.example.nlevelnestedlist.nLevel;
 
-/**
- * Created by sadra on 7/29/17.
- */
+
 
 public class SomeObject {
     public String name;
