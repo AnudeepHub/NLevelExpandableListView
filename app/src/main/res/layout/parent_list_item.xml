@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/parent_listItemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_parent_list_itme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/size_10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/cl_sales_order_item_parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sales_order_white_bg"
+                android:paddingLeft="@dimen/size_30dp"
+                android:paddingTop="@dimen/size_20dp"
+                android:paddingRight="@dimen/size_20dp">
+
+                <TextView
+                    android:id="@+id/tv_order_number_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000000"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_19sp" />
+
+                <TextView
+                    android:id="@+id/tv_legends1_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_order_number_parent"
+                    android:layout_marginTop="@dimen/size_5dp"
+                    android:background="@drawable/custom_rectangle_rose_old"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:text="SAP"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_11sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_order_value_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="$268,563.00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_15sp" />
+
+                <TextView
+                    android:id="@+id/tv_legends2_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_legends1_parent"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:layout_toRightOf="@+id/tv_legends1_parent"
+                    android:background="@drawable/custom_rectangle_rose_old"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_11sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_legends3_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_legends2_parent"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:layout_toRightOf="@+id/tv_legends2_parent"
+                    android:background="@drawable/custom_rectangle_rose_old"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_11sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_legends4_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_legends3_parent"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:layout_toRightOf="@+id/tv_legends3_parent"
+                    android:background="@drawable/custom_rectangle_rose_old"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_11sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/divider_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tv_legends1_parent"
+                    android:layout_marginTop="@dimen/size_15dp"
+                    android:background="@color/color2grey" />
+
+
+                <TextView
+                    android:id="@+id/tv_comment_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider_parent"
+                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:layout_toRightOf="@+id/tv_comment_count_parent"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/size_20dp"
+                    android:singleLine="true"
+                    android:text="Process Tray, no issues"
+                    android:textColor="@color/pref_details"
+                    android:textSize="@dimen/size_15sp" />
+
+                <TextView
+                    android:id="@+id/tv_comment_count_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider_parent"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:background="@drawable/ic_comment"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingTop="@dimen/size_5dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:paddingBottom="@dimen/size_12dp"
+                    android:text="566"
+                    android:textColor="@color/dell_blue"
+                    android:textSize="@dimen/size_10sp" />
+
+                <TextView
+                    android:id="@+id/tv_data_source_name_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_order_value_parent"
+                    android:layout_marginTop="@dimen/size_5dp"
+                    android:layout_toLeftOf="@+id/iv_next_arrow_parent"
+                    android:background="@drawable/boarder_black"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:text="@string/sap"
+                    android:textColor="@color/black_shade"
+                    android:textSize="@dimen/size_11sp" />
+
+                <ImageView
+                    android:id="@+id/iv_next_arrow_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_order_value_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingTop="@dimen/size_6dp"
+                    android:paddingRight="@dimen/size_10dp"
+                    android:paddingBottom="@dimen/size_5dp"
+                    android:src="@drawable/ic_next" />
+
+                <ImageView
+                    android:id="@+id/iv_legends_1_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_order_number_parent"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingTop="@dimen/size_5dp"
+                    android:src="@drawable/ic_legends_2"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iv_legends_2_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_legends_1_parent"
+                    android:paddingTop="@dimen/size_5dp"
+                    android:src="@drawable/ic_legends_3"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--<TextView
+            android:id="@+id/parent_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#efefef" />
+
+        <TextView
+            android:id="@+id/parent_expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#efefef"></TextView>-->
+    </RelativeLayout>
+
+</RelativeLayout>

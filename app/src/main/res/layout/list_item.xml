@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/sub_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:minHeight="50dp"
+        android:paddingTop="@dimen/size_15dp">
+
+        <TextView
+            android:id="@+id/tv_sub_nav_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_20dp"
+            android:layout_marginRight="50dp"
+            android:textSize="@dimen/size_15sp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tv_sub_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_20dp"
+            android:text="DDRK-P3-1PH-DR[DOCK]"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_15sp"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/iv_sub_expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/size_20dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_expand" />
+
+        <TextView
+            android:id="@+id/tv_sub_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_rectangle_green_border"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:text="999"
+            android:textColor="@color/green"
+            android:textSize="@dimen/size_10sp"
+            android:layout_toLeftOf="@+id/iv_sub_expand_collapse"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tv_sub_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_20dp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:background="@drawable/ic_comment"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingTop="@dimen/size_5dp"
+            android:paddingRight="@dimen/size_10dp"
+            android:visibility="visible"
+            android:paddingBottom="@dimen/size_12dp"
+            android:text="566"
+            android:textColor="@color/dell_blue"
+            android:textSize="@dimen/size_10sp"
+            android:layout_below="@+id/tv_sub_item_title" />
+
+        <TextView
+            android:id="@+id/tv_sub_item_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:layout_marginTop="@dimen/size_10dp"
+            android:visibility="visible"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="@dimen/size_20dp"
+            android:text="Process Tray, no issuejhfjdh lsdfljdsljflksdjflkdsj lfjsdljflksdjf ljdsklfjkldjlkfjdslf lsdjfljdlfjs"
+            android:textColor="@color/pref_details"
+            android:textSize="@dimen/size_15sp"
+            android:layout_toRightOf="@+id/tv_sub_comment_count"
+            android:layout_below="@+id/tv_sub_item_title" />
+
+        <ImageView
+            android:id="@+id/iv_legends_1_sub_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/size_10dp"
+            android:layout_toRightOf="@+id/tv_sub_item_title"
+            android:src="@drawable/ic_legends_2" />
+
+        <ImageView
+            android:id="@+id/iv_legends_2_sub_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_legends_1_sub_child"
+            android:src="@drawable/ic_legends_3" />
+
+        <TextView
+            android:id="@+id/divider_sub_child"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="30dp"
+            android:background="@color/darker_grey" />
+
+
+        <!--<TextView
+            android:id="@+id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="@color/black"></TextView>-->
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

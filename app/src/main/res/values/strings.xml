@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Nested Level Demo</string>
+    <string name="unable_to_login">Unable to login with details you provided</string>
+    <string name="no_internet">Look\'s like you are offline</string>
+    <string name="copyright">\u00A9 2020 Dell. All Rights Reserved.</string>
+    <string name="help">Help &amp; Feedback</string>
+    <string name="legends">Legends</string>
+    <string name="privacy_policy"><a href="https://www.google.com">Privacy Policy </a></string>
+    <string name="terms_of_use"><a href="https://www.google.com">Terms of Use</a></string>
+    <string name="about_move">About Move</string>
+    <string name="about_dell">About Dell</string>
+    <string name="about_move_details">MOVE mobile App enables all the factory members to have seamless access of dashboard which contains the holistic view all the order statuses, line items which can be filtered on the go.\n\nApp Version:\u0020 </string>
+    <string name="about_dell_details">Dell Technologies is a unique family of businesses that provide the essential infrastructure for organizations to build their digital future, transform IT and protect their most important asset, information. We are committed to bringing innovation to people everywhere and organizations of all shapes and sizes so they can transform and thrive in the digital economy.
+</string>
+    <string name="unauthorized">Un-Authorized</string>
+    <string name="yes">YES</string>
+    <string name="are_you_sure">Are you Sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">OK</string>
+    <string name="session">Session Expired</string>
+    <string name="close_app">Please close and reopen app for a seamless experience</string>
+    <string name="sales_order_summary">Sales Order Summary</string>
+    <string name="view_line_item">View Line Items</string>
+    <string name="close_line_item">Close line items</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="internal_server_error">Internal Server error, Please try after some time</string>
+    <string name="item_info">Item Info</string>
+    <string name="sales_order_info">Sales Order Info</string>
+    <string name="all_sales_order">All Sales Order</string>
+    <string name="order_value">Order Value</string>
+    <string name="model_value">Model Value</string>
+    <string name="sales_orders">Sales Orders</string>
+    <string name="items">Items</string>
+    <string name="ncp_lines">NCP Lines</string>
+    <string name="tex" />
+    <string name="dollar">$</string>
+    <string name="status_dollar_summary">Status Dollar Summary</string>
+    <string name="auth_error_msg">Authentication Error occurred, Kindly try after some time!</string>
+    <string name="auth_retry_msg">Authentication Error occurred, Trying to Re-authenticate!</string>
+    <string name="todo">TODO</string>
+    <string name="sap">SAP</string>
+    <string name="sales_order_number">Sales Order Number</string>
+    <string name="scheduled_ship_date">Scheduled Ship Date</string>
+    <string name="order_type">Order Type</string>
+    <string name="comments">Comments</string>
+    <string name="no_sales_orders_for">No Sales Orders for</string>
+    <string name="no_sales_orders_search">No sales orders available for this search criteria!</string>
+    <string name="welcome_name">Welcome $name!</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="factory_selection_msg">Choose the factory to see the sales orders</string>
+    <string name="internet_error">Unable to connect with internet, Kindly check your internet connection!</string>
+    <string name="choose_factory">Choose Factory</string>
+    <string name="submit">submit</string>
+    <string name="dollar_summary">Status Dollar Summary</string>
+    <string name="status_summary">Status Summary</string>
+    <string name="warehouse_id">wareHouseID</string>
+    <string name="access_error">\"Sorry you don\'t have access kindly check with you factory manage ! \"</string>
+    <string name="salesOrderNumber">salesOrderNumber</string>
+    <string name="created_date">Created Date</string>
+    <string name="bill_to_customer">Bill To Customer</string>
+    <string name="agreement_id">Agreement ID</string>
+    <string name="details">Details</string>
+    <string name="corp">Corp</string>
+    <string name="hs">HS</string>
+    <string name="nonrev">NonRev</string>
+    <string name="st_shp">ST-SHP</string>
+    <string name="zero_comments_msg">Sorry there is no comments available for this Sales order!</string>
+    <string name="fetching_logged_in_user_details">Fetching logged-in user details!</string>
+    <string name="sales_order_header">Sales Order Header</string>
+
+</resources>
